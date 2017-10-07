@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS atleta (
+  id serial PRIMARY KEY,
+  nome VARCHAR(100),
+  idade integer,
+  associoacao VARCHAR(100),
+  graduacao VARCHAR(100)
+);

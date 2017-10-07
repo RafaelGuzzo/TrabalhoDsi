@@ -1,0 +1,21 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="">Sistema Simples</a>
+    </div>
+
+    <ul class="nav navbar-nav">
+      <li routerLinkActive="active">
+        <a routerLink="/cadastra">Cadastrar</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/lista">Listar</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
